@@ -1,0 +1,15 @@
+variable "region" {}
+variable "project_name" {}
+variable "vpc_cidr" {}
+variable "public_subnet_1_cidr" {}
+variable "public_subnet_2_cidr" {}
+variable "private_subnet_app_1_cidr" {}
+variable "private_subnet_app_2_cidr" {}
+variable "private_subnet_data_1_cidr" {}
+variable "private_subnet_data_2_cidr" {}
+variable "vpc_id" {}
+variable "db_instance_class" {}
+variable "db_password" {}
+variable "db_name" {}
+variable "db_username" {}
+variable "multi_az" {}
